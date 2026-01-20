@@ -8,6 +8,18 @@ A critical question emerges, after noting that authentic diversity is extraordin
 
 This final dataset represents a pragmatic hypothesis: given that authentic diverse data collection is time-intensive and resource-constrained, can we improve model robustness in the interim through combined training on original and synthetically-diversified data? HAM-HybridEquity merges the original HAM10000 subsets with their HAM-SyntheticDarker counterpart, creating a dataset of manufactured diversity. This is not presented as a solution but as an experiment that acknowledges both the utility and limitations of synthetic approaches. The results demonstrate that synthetic diversity reduces performance variance across domains but at the cost of reduced in-domain accuracy, and with substantial persistent gaps relative to authentic diversity. It embodies a necessary humility: when faced with systemic data bias, we can explore interim strategies while remaining committed to the fundamental imperative of authentic diverse data collection.
 
+# How to download the datasets
+The datasets are publicly available in .npy format at the following link:
+
+https://drive.google.com/drive/folders/1oL_LeZlGNBdYNJe_DiKvkclHZZ2clCzA?usp=drive_link
+
+# How to Cite
+
+The datasets are freely available for use. When using them, please cite the original publications. When referencing this dataset in your own manuscripts and publications, please use the following full citations:
+
+[1] Ruga, T., Caroprese, L., Vocaturo, E., & Zumpano, E. (2025). MultiExCam: A multi approach and explainable artificial intelligence architecture for skin lesion classification. Computer Methods and Programs in Biomedicine, 109081.
+[2] Ruga, T., Zumpano, E., Vocaturo, E., Caroprese, L., & Arlia, C. (2025, July). Bias in Dermatological Datasets: A Critical Analysis of the Underrepresentation of Dark Skin Tones in Melanoma Classification Images. In International Conference on Computational Science (pp. 434-448). Cham: Springer Nature Switzerland.
+
 # How to load datasets and create subsets
 
 To be able to emulate the configurations used in the experiments proposed in the original paper, after loading the datasets, refer to the following code to obtain the exact distributions:
