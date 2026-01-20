@@ -18,6 +18,7 @@ https://drive.google.com/drive/folders/1oL_LeZlGNBdYNJe_DiKvkclHZZ2clCzA?usp=dri
 The datasets are freely available for use. When using them, please cite the original publications. When referencing this dataset in your own manuscripts and publications, please use the following full citations:
 
 [1] Ruga, T., Caroprese, L., Vocaturo, E., & Zumpano, E. (2025). MultiExCam: A multi approach and explainable artificial intelligence architecture for skin lesion classification. Computer Methods and Programs in Biomedicine, 109081.
+
 [2] Ruga, T., Zumpano, E., Vocaturo, E., Caroprese, L., & Arlia, C. (2025, July). Bias in Dermatological Datasets: A Critical Analysis of the Underrepresentation of Dark Skin Tones in Melanoma Classification Images. In International Conference on Computational Science (pp. 434-448). Cham: Springer Nature Switzerland.
 
 # How to load datasets and create subsets
