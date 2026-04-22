@@ -27,6 +27,7 @@ Ruga, T., Zumpano, E., Vocaturo, E., Caroprese, L., & Arlia, C. (2025, July). Bi
 
 To be able to emulate the configurations used in the experiments proposed in the original paper, after loading the datasets, refer to the following code to obtain the exact distributions:
 
+```python
 if DATASET == 'HAM10000':
   x_train,x_test,y_train,y_test = train_test_split(X,y,test_size=0.3,random_state=11,stratify=y)
   x_val,x_test,y_val,y_test = train_test_split(x_test,y_test,test_size=0.3,random_state=11,stratify=y_test)
